@@ -1,0 +1,137 @@
+body { /*sets colour of the webpage*/
+	margin: 0;
+	padding: 0;
+  background-color:rgb(120, 183, 207);
+  color: #FFFFFF;
+}
+
+h1 { /*initialies presets for h1 tag*/
+  color: #333333;
+  font-family: Impact, Charcoal, sans-serif;
+  text-align: center;
+  font-size: 5em;
+}
+
+#speech-bubble { /*initialies presets of the divs with id of speech-bubble*/
+  height: 400px;
+  width: 600px;
+  background-color:rgb(26, 92, 168);
+  text-align: center;
+  font-size: 2em;
+  margin: auto
+}
+
+#landingbtn { /*initialies presets of the buttons with id of landingbtn*/
+  position: absolute;
+  bottom: 150px;
+  left: 600px;
+  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 200px;
+}
+
+#btn { /*initialies presets of the buttons with id of btn*/
+  position: absolute;
+  bottom: 150px;
+  left: 600px;
+  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 200px;
+}
+
+#submit { /*initialies presets of the buttons with id of btn*/
+  position: absolute;
+  bottom: 50px;
+  left: 600px;
+  color: rgb(0, 0, 0);
+  height: 50px;
+  width: 200px;
+}
+#panel1 { /*initialies presets of the divs with id of panel1*/
+  position: absolute;
+  right: 10px;
+  background-color: black;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#panel2 { /*initialies presets of the divs with id of panel2*/
+  position: absolute;
+  right: 200px;
+  background-color: black;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#panel3 { /*initialies presets of the divs with id of panel3*/
+  position: absolute;
+  right: 100px;
+  bottom: 100px;
+  background-color: black;
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+#deck { /*initialies presets of the divs with id of deck*/
+  height: 500px;
+  width: 600px;
+  background-color:rgb(26, 92, 168);
+  margin: auto;
+
+}
+.deck__item { /*initialies presets of the images with class of deck__item*/
+    width: 150px;
+    height: 200px;
+    margin: 20px
+}
+
+
+img { /*speed of card flip*/
+  transition: 0.2s;
+}
+
+div img:nth-child(1):hover{ /*displays the reverse of the card when hovered depending on card position*/
+  content: url("FirewallRev.jpg");
+  transform: scale(3)
+}
+
+div img:nth-child(2):hover{
+  content: url("VPNRev.jpg");
+  transform: scale(3)
+}
+
+div img:nth-child(3):hover{
+  content: url("EncryptionRev.jpg");
+  transform: scale(3)
+}
+
+div img:nth-child(4):hover{
+  content: url("defragRev.jpg");
+  transform: scale(3)
+}
+
+div img:nth-child(5):hover{
+  content: url("filemanRev.jpg");
+  transform: scale(3)
+}
+
+div img:nth-child(6):hover{
+  content: url("cliRev.jpg");
+  transform: scale(3)
+}
+
+
+
+

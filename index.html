@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <script src="script.js"></script>
+    <h1> CYBER SIMULATION </h1>
+    <div id="speech-bubble"> <!-- id refers to any speech bubble that will be used in the program -->
+       <p><u>RULES OF THE GAME!</u></p>
+       <p> The game will be split into three stages! Complete each stage by selecting the correct cards for that stage and beat the hacker at the end of the stage. Hover over cards to get more info. Have fun!</p>
+    </div>
+    <button onclick="redirectFunc()" id="btn">LETS GO!</button> <!-- Button to go onto the next stage -->
+    <script> // function to link button to the next stage
+      function redirectFunc() { 
+        location.replace("softwareStageLanding.html")
+      }
+    </script>
+
+  </body>
+</html>
+
